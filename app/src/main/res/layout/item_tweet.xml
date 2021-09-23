@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp">
+    android:layout_margin="4dp">
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -12,8 +12,8 @@
         android:layout_height="60dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -45,11 +45,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="275dp"
+        android:layout_marginStart="240dp"
         android:layout_marginTop="6dp"
         android:layout_marginEnd="5dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        android:textSize="14sp"
         android:gravity="center"
-        tools:text="2m" />
+        android:textSize="14sp"
+        tools:text="Just now" />
+
 </RelativeLayout>
